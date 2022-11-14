@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Responsive Website Design</title>
+  <meta name="description"
+		content="Делаем наружнюю и внутренюю отделку, утепляем, меняем окна, двери, сделаем шкафы на балкон, крышу, гарантия 5 лет, рассрочка 0%, звоните 8 029 604-06-29">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo">pod-klyuch.by</a>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    <ul class="menu">
+      <li><a href="#home" onclick="toggleMenu();">Главная</a></li>
+      <li><a href="#about" onclick="toggleMenu();">О нас</a></li>
+      <li><a href="#services" onclick="toggleMenu();">Услуги</a></li>
+      <li><a href="#work" onclick="toggleMenu();">Наши работы</a></li>
+      <li><a href="#testimonial" onclick="toggleMenu();">Отзывы</a></li>
+      <li><a href="#contact" onclick="toggleMenu();">Контакты</a></li>
+    </ul>
+  </header>
+  <section class="banner" id="home">
+    <div class="textBx">
+      <h1>Ремонт под ключ<br class="br" /> в Минске</h1>
+      <a href="#contact" class="textBx-btn">Получить консультацию</a>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="heading">
+      <h2>О нас</h2>
+    </div>
+    <div class="content">
+      <div class="conetntBx w50">
+        <div class="dl-blurbs">
+          <dl>
+            <dt>Опыт</dt>
+            <dd>Делаем ремонты с 2017 года. За этот период получили огромный опыт как работа с очень дорогими ремонтами,
+              так и с экономными ремонтами.</dd>
+
+            <dt>Выполнено</dt>
+            <dd>За 5+ лет сделали более 30 ремонтов, половина из них под ключ.</dd>
+
+            <dt>Сроки</dt>
+            <dd>Согласовываем с заказчиком сроки на выполнение ремонта, очень стараемся их соблюдать, в редких случаях
+              сроки смещаются.</dd>
+
+            <dt>Отвественность</dt>
+            <dd>Для нас важно мнение каждого клиента, поэтому мы с особой ответстенностью выполняем работы.</dd>
+          </dl>
+        </div>
+      </div>
+      <div class="w50">
+        <img src="workers.webp" class="img">
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="services" id="services">
+    <div class="heading">
+      <h2>Услуги</h2>
+      <p class="white">Выполняем следующие виды работ</p>
+    </div>
+
+    <div class="content-service">
+      <div class="card">
+        <div class="img-box">
+          <img src="pereplanirovka.webp" width="307" height="440" alt="cool">
+        </div>
+        <div class="content-box">
+          <h2>Перепланировка<br><span>стены/трубы</span></h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odio repellat provident rerum veniam ipsum
+            dolorum nulla</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-box">
+          <img src="finishing.webp" width="307" height="440" alt="cool">
+        </div>
+        <div class="content-box">
+          <h2>Отделка<br><span>стены/пол/потолок</span></h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odio repellat provident rerum veniam ipsum
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-box">
+          <img src="electrician.webp" width="307" height="440" alt="cool">
+        </div>
+        <div class="content-box">
+          <h2>Электрика<br><span>обычная/умный дом</span></h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odio repellat provident rerum veniam ipsum
+            dolorum nulla</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-box">
+          <img src="plumber.webp" width="307" height="440" alt="cool">
+        </div>
+        <div class="content-box">
+          <h2>Сантехника<br><span>ванна/кухня/отопление</span></h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odio repellat provident rerum veniam ipsum
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-box">
+          <img src="furniture.webp" width="307" height="440" alt="cool">
+        </div>
+        <div class="content-box">
+          <h2>Сборка мебели<br><span>корпусной/мягкой</span></h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odio repellat provident rerum veniam ipsum
+            dolorum nulla</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-box">
+          <img src="okna.webp" width="307" height="440" alt="cool">
+        </div>
+        <div class="content-box">
+          <h2>Замена<br><span>окон/дверей</span></h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odio repellat provident rerum veniam ipsum
+            dolorum nulla</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="work" id="work">
+    <div class="heading">
+      <h2>Наши работы</h2>
+    </div>
+    <div class="content">
+      <div class="workBx">
+        <img src="1.webp">
+      </div>
+      <div class="workBx">
+        <img src="2.webp">
+      </div>
+      <div class="workBx">
+        <img src="3.webp">
+      </div>
+      <div class="workBx">
+        <img src="4.webp">
+      </div>
+    </div>
+    <div class="heading">
+      <a href="#/" class="btn">Смотреть больше</a>
+    </div>
+  </section>
+
+
+  <section class="testimonial" id="testimonial">
+    <div class="heading">
+      <h2>Что о нас говорят клиенты</h2>
+    </div>
+    <div class="content">
+      <div class="testimonialBx">
+        <p>После покупки квартиры ребята делали ремонт, оговорили цену и сроки. Несколько раз просил кое-что переделать
+          и кое-что дополнительно сделать и я всё переживал, что в конце скажу доплатить кругленькую сумму, но в конце
+          при расчёте сказали доплатить в три раза меньше, чем я себе нафантазировал. Я доволен и результатом и ценами.
+          Рекомундую.</p>
+        <h3>Созонов Алексей<br><span>предприниматель</span></h3>
+      </div>
+      <div class="testimonialBx">
+        <p>Соседу делали ремонт, зашёл вроде ничего так сделали. Позвал к себе ремонт под ключ. Делали три месяца. В
+          принципе сделали классно, были правда у нас небольшие разногласия, всё говорили как с экономить на ремонте, я
+          ремонт делаю не каждый день, чтобы экономить, а так хорошие парни, толковые специалисты.</p>
+        <h3>Василенко Павел<br><span>стоматолог</span></h3>
+      </div>
+    </div>
+  </section>
+
+  <footer class="contact footer" id="contact">
+    <div class="heading white">
+      <h2>Контакты</h2>
+    </div>
+    <div class="content">
+      <div class="contactInfo">
+        <h3>Позвоните нам</h3>
+        <div class="contactInfoBx">
+          <div class="box">
+            <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+            <div class="text">
+              <h3>Адрес</h3>
+              <p>г. Минск,<br>ул. Минская<br>100-5</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+            <div class="text">
+              <h3>Телефон</h3>
+              <p>+375 29 000-00-00</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>pod-klyuch@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="formBx">
+        <form id="form_id">
+          <h3>Напишите нам</h3>
+          <input type="text" id="input_text" name="name" placeholder="Имя">
+							<input type="tel" name="phone" id="input_tel" placeholder="Телефон *" required>
+							<textarea name="message" id="input_message" placeholder="Ваше сообщение"></textarea>
+          <input type="submit" class="btn-form" value="Отправить" name="">
+        </form>
+      </div>
+    </div>
+  </footer>
+  <div class="copyright">
+		<p class="copirait">Copyright © 2017 | Created &amp; Designed By <a href="https://vi-tech.by"
+				target="_blank"><span style="color: rgb(12, 242, 255);">VI:TECH</span></a></p>
+	</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script type="text/javascript">
+    window.addEventListener("scroll", function () {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+
+    function toggleMenu() {
+      var menuToggle = document.querySelector('.toggle');
+      var menu = document.querySelector('.menu');
+      menuToggle.classList.toggle('active');
+      menu.classList.toggle('active');
+    }
+
+
+
+
+		const token = '5688867981:AAHoT7b1Mv3nk_fAG_jbMT_oGgwHcGVJgSo'
+		const chat_id = '-1001553603270'
+		const uri_api = `https://api.telegram.org/bot${token}/sendMessage`
+
+
+    const btn = document.querySelector('.btn-form')
+
+document.getElementById('form_id').addEventListener('submit', function (e) {
+			e.preventDefault()
+			let messageForm = `<b>Заказ с сайта</b>\n`
+			messageForm += `<b> </b>\n`
+			messageForm += `<b>Сообщение: </b> <i>«${this.message.value}»</i>\n`
+			messageForm += `<b> </b>\n`
+			messageForm += `<b>Отправитель: ${this.name.value}</b> \n`
+			messageForm += `<b>Телефон:${this.phone.value} </b> \n`
+
+			axios.post(uri_api, {
+				chat_id,
+				parse_mode: 'html',
+				text: messageForm,
+			}).then(data => {
+				btn.innerHTML = 'Отправлено'
+				setTimeout(() => {
+					// closeModal()
+					btn.innerHTML = 'Отправить'
+				}, 2000)
+			}).then(data => {
+				document.getElementById('input_text').value = ''
+				document.getElementById('input_tel').value = ''
+				document.getElementById('input_message').value = ''
+			})
+		})
+  </script>
+</body>
+
+</html>
