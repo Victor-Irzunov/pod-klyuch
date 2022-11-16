@@ -145,10 +145,10 @@ section, footer
 {
   font-weight: 200;
   font-size: 30px;
-  background-image: var(--gradient);
+  /* background-image: var(--gradient);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	color: #fff;
+	-webkit-text-fill-color: transparent; */
+	color: #000
 }
 .w50
 {
@@ -188,7 +188,7 @@ dt::before {
 dd {
   margin-left: 5vw;
   margin-bottom: 2vh;
-  color: #2c2b2b;
+  color: #151515;
   font-weight: 200;
 }
 img
@@ -204,10 +204,10 @@ img
   margin-bottom: .5em;
 }
 .services .heading .white {
-  background-image: var(--gradient);
+  /* background-image: var(--gradient);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	color: #fff;
+	-webkit-text-fill-color: transparent; */
+	color: #000;
 }
 
 .content-service{
