@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Ремонт под ключ</title>
+  <meta name="description" content="Делаем все виды ремонта на любом объекте, звоните 8 029 000-00-00">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo">pod-klyuch.by</a>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    <ul class="menu">
+      <li><a href="#home" onclick="toggleMenu();">Главная</a></li>
+      <li><a href="#about" onclick="toggleMenu();">О нас</a></li>
+      <li><a href="#services" onclick="toggleMenu();">Услуги</a></li>
+      <li><a href="#work" onclick="toggleMenu();">Наши работы</a></li>
+      <li><a href="#testimonial" onclick="toggleMenu();">Отзывы</a></li>
+      <li><a href="#contact" onclick="toggleMenu();">Контакты</a></li>
+    </ul>
+  </header>
+  <section class="banner" id="home">
+    <div class="banner-black"></div>
+    <div class="textBx">
+      <h1>Ремонт под ключ<br class="br" /> в Минске</h1>
+      <div></div>
+      <h2 class="">Мастер на час</h2>
+      <div class='textBx-tel'>
+        <a href="tel:8295092176" class="">+375 29 509-21-76</a>
+      </div>
+      <a href="#contact" class="textBx-btn">Получить консультацию</a>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="heading">
+      <h2>О нас</h2>
+    </div>
+    <div class="content">
+      <div class="conetntBx w50">
+        <div class="dl-blurbs">
+          <dl>
+            <dt>Опыт</dt>
+            <dd>Делаем ремонты с 2017 года. За этот период получили огромный опыт как работа с очень дорогими ремонтами,
+              так и с эконом ремонтами.</dd>
+
+            <dt>Выполнено</dt>
+            <dd>За 5+ лет сделали более 30 ремонтов, половина из них под ключ.</dd>
+
+            <dt>Сроки</dt>
+            <dd>Согласовываем с заказчиком сроки на выполнение ремонта, очень стараемся их соблюдать, в редких случаях
+              сроки смещаются.</dd>
+
+            <dt>Отвественность</dt>
+            <dd>Для нас важно мнение каждого клиента, поэтому мы с особой ответстенностью выполняем работы.</dd>
+          </dl>
+        </div>
+      </div>
+      <div class="w50">
+        <img src="workers.webp" class="img">
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="heading">
+      <h2>Услуги</h2>
+      <p class="white">Выполняем следующие виды работ</p>
+    </div>
+
+    <div class="content-service">
+      <div class="card">
+        <div class="img-box">
+          <img src="5.webp" width="307" height="440" alt="cool">
+        </div>
+        <div class="content-box">
+          <h2>Ремонт Сан узлов <br><span>под ключ</span></h2>
+          <p>
+            Сантехника
+          </p>
+          <p>
+            Электрика
+          </p>
+          <p>
+            Укладка плитки
+          </p>
+          <p>
+            Изготовление душевых поддонов
+          </p>
+          <button class="order-btn" data-modal="modal1" data-card-title="Ремонт Сан узлов"
+            data-form-title="Ваш заказ: Ремонт санузла">
+            Заказать
+          </button>
+        </div>
+
+      </div>
+
+
+
+      <div class="card">
+        <div class="img-box">
+          <img src="plumber.webp" width="307" height="440" alt="cool">
+        </div>
+        <div class="content-box">
+          <h2>Услуги Сантехника<br><span></span></h2>
+          <p>
+            Полная замена труб
+          </p>
+          <p>
+            Установка инсталяций смесителей душевых стоек
+          </p>
+          <p>
+            Установка чистовой сантехники
+          </p>
+          <p>
+            Ремонт сантехнического оборудования
+          </p>
+          <p>
+            Подключение стиральных машин замена сифонов
+          </p>
+          <button class="order-btn" data-modal="modal1" data-card-title="Услуги сантехника"
+            data-form-title="Ваш заказ: Услуги сантехника">Заказать</button>
+        </div>
+      </div>
+
+
+
+      <div class="card">
+        <div class="img-box">
+          <img src="electrician.webp" width="307" height="440" alt="cool">
+        </div>
+        <div class="content-box">
+          <h2>Услуги электрика<br><span></span></h2>
+          <p>
+            Разводка полная или частичная
+          </p>
+          <p>
+            Замена выключателей резеток светильников
+          </p>
+          <p>
+            Подключение чимтовых потребителей
+          </p>
+          <button class="order-btn" data-modal="modal1" data-card-title="Услуги Электрика"
+            data-form-title="Ваш заказ: Услуги электрика">Заказать</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="img-box">
+          <img src="plumber.webp" width="307" height="440" alt="cool">
+        </div>
+        <div class="content-box">
+          <h2>Укладка напольных покрытий<br><span></span></h2>
+          <p>
+            Плитка
+          </p>
+          <p>
+            Ламинат
+          </p>
+          <p>
+            Паркетная доска
+          </p>
+          <p>
+            Кварцвинил
+          </p>
+          <p>
+            Установка плинтусов
+          </p>
+          <button class="order-btn" data-modal="modal1" data-card-title="Укладка напольных покрытий"
+            data-form-title="Ваш заказ: Укладка напольных покрытий">Заказать</button>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <div class="img-box">
+          <img src="6.webp" width="307" height="440" alt="cool">
+        </div>
+        <div class="content-box">
+          <h2>Мастер на час<br><span></span></h2>
+          <p>
+            Мелкий бытовой ремонт
+          </p>
+          <button class="order-btn" data-modal="modal1" data-card-title="Мастер на час"
+            data-form-title="Ваш заказ: Мастер на час">Заказать</button>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <div class="img-box">
+          <img src="furniture.webp" width="307" height="440" alt="cool">
+        </div>
+        <div class="content-box">
+          <h2>Сборка / Ремонт мебели<br><span></span></h2>
+          <p>
+            Быстро
+          </p>
+          <p>
+            Аккуратно
+          </p>
+          <button class="order-btn" data-modal="modal1" data-card-title="Сборка/Ремонт мебели"
+            data-form-title="Ваш заказ: Сборка/Ремонт мебели">Заказать</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="work" id="work">
+    <div class="heading">
+      <h2>Наши работы</h2>
+    </div>
+    <div class="content">
+      <div class="workBx">
+        <img src="1.webp">
+      </div>
+      <div class="workBx">
+        <img src="7.webp">
+      </div>
+      <div class="workBx">
+        <img src="8.webp">
+      </div>
+      <div class="workBx">
+        <img src="4.webp">
+      </div>
+      <div class="workBx">
+        <img src="9.webp">
+      </div>
+      <div class="workBx">
+        <img src="10.webp">
+      </div>
+    </div>
+  </section>
+
+
+  <section class="testimonial" id="testimonial">
+    <div class="heading">
+      <h2>Что о нас говорят клиенты</h2>
+    </div>
+    <div class="content">
+      <div class="testimonialBx">
+        <p>После покупки квартиры ребята делали ремонт, оговорили цену и сроки. Несколько раз просил кое-что переделать
+          и кое-что дополнительно сделать и я всё переживал, что в конце скажу доплатить кругленькую сумму, но в конце
+          при расчёте сказали доплатить в три раза меньше, чем я себе нафантазировал. Я доволен и результатом и ценами.
+          Рекомундую.</p>
+        <h3>Созонов Алексей<br><span>предприниматель</span></h3>
+      </div>
+      <div class="testimonialBx">
+        <p>Соседу делали ремонт, зашёл вроде ничего так сделали. Позвал к себе ремонт под ключ. Делали три месяца. В
+          принципе сделали классно, были правда у нас небольшие разногласия, всё говорили как с экономить на ремонте, я
+          ремонт делаю не каждый день, чтобы экономить, а так хорошие парни, толковые специалисты.</p>
+        <h3>Василенко Павел<br><span>стоматолог</span></h3>
+      </div>
+    </div>
+  </section>
+
+  <footer class="contact footer" id="contact">
+    <div class="heading white">
+      <h2 class="con-h2">Контакты</h2>
+    </div>
+    <div class="content">
+      <div class="contactInfo">
+        <h3>Позвоните нам</h3>
+        <div class="contactInfoBx">
+          <div class="box">
+            <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+            <div class="text">
+              <h3>Реквизиты</h3>
+              <p>ИП Жилко В.А.<br>УНП 691958667<br></p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+            <div class="text">
+              <h3>Телефон</h3>
+              <a href="tel:8295092176" class="tel">+375 29 509-21-76</a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+            <div class="text">
+              <h3>Режим работы</h3>
+              <p>8:00-20:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="formBx">
+        <form id="form_id">
+          <h3>Напишите нам</h3>
+          <input type="text" id="input_text" name="name" placeholder="Имя">
+          <input type="tel" name="phone" id="input_tel" placeholder="Телефон *" required>
+          <textarea name="message" id="input_message" placeholder="Ваше сообщение"></textarea>
+          <button type="submit" id="btn-form">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+  <div class="copyright">
+    <p class="copirait">Copyright © 2017 | Created &amp; Designed By <a href="https://vi-tech.by" target="_blank"><span
+          style="color: rgb(12, 242, 255);">VI:TECH</span></a></p>
+  </div>
+
+
+  <div class="modal" id="modal1">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal('modal1')">&times;</span>
+      <form id="form_modal1">
+        <h3 id="modal-title">Напишите нам</h3>
+        <input type="text" id="input_text_modal1" name="name" placeholder="Имя">
+        <input type="tel" name="phone" id="input_tel_modal1" placeholder="Телефон *" required>
+        <textarea name="message" id="input_message_modal1" placeholder="Ваше сообщение"></textarea>
+        <button type="submit" id="btn-form_modal1">Отправить</button>
+      </form>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script type="text/javascript">
+    window.addEventListener("scroll", function () {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+    function toggleMenu() {
+      var menuToggle = document.querySelector('.toggle');
+      var menu = document.querySelector('.menu');
+      menuToggle.classList.toggle('active');
+      menu.classList.toggle('active');
+    }
+    const token = '5562126487:AAGqX2TBd3toX15OgSCQ2yW55RNfgtBWQko'
+    const chat_id = '-1001794221917'
+    const uri_api = `https://api.telegram.org/bot${token}/sendMessage`
+    const btn = document.getElementById('btn-form')
+    document.getElementById('form_id').addEventListener('submit', function (e) {
+      e.preventDefault()
+      let messageForm = `<b>Заказ с сайта</b>\n`
+      messageForm += `<b> </b>\n`
+      messageForm += `<b>Сообщение: </b> <i>«${this.message.value}»</i>\n`
+      messageForm += `<b> </b>\n`
+      messageForm += `<b>Отправитель: ${this.name.value}</b> \n`
+      messageForm += `<b>Телефон:${this.phone.value} </b> \n`
+
+      axios.post(uri_api, {
+        chat_id,
+        parse_mode: 'html',
+        text: messageForm,
+      }).then(data => {
+        btn.innerHTML = 'Отправлено'
+        setTimeout(() => {
+          btn.innerHTML = 'Отправить'
+        }, 3000)
+      }).then(data => {
+        document.getElementById('input_text').value = ''
+        document.getElementById('input_tel').value = ''
+        document.getElementById('input_message').value = ''
+      })
+    })
+  </script>
+
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const orderButtons = document.querySelectorAll('.order-btn');
+      orderButtons.forEach(button => {
+        button.addEventListener('click', function () {
+          const modalId = this.getAttribute('data-modal');
+          const cardTitle = this.getAttribute('data-card-title');
+          const formTitle = this.getAttribute('data-form-title');
+          const modalTitle = document.getElementById('modal-title');
+          modalTitle.innerText = formTitle;
+          openModal(modalId);
+        });
+      });
+      const modalForms = document.querySelectorAll('form[id^="form_modal"]');
+      modalForms.forEach(form => {
+        form.addEventListener('submit', function (e) {
+          e.preventDefault();
+          submitForm(this);
+        });
+      });
+    });
+    function openModal(modalId) {
+      const modal = document.getElementById(modalId);
+      modal.classList.add('show');
+    }
+
+    function closeModal(modalId) {
+      const modal = document.getElementById(modalId);
+      modal.classList.remove('show');
+    }
+
+    function submitForm(form) {
+      const token = '5562126487:AAGqX2TBd3toX15OgSCQ2yW55RNfgtBWQko';
+      const chat_id = '-1001794221917';
+      const uri_api = `https://api.telegram.org/bot${token}/sendMessage`;
+      const btn = form.querySelector('button[type="submit"]');
+      const modalTitle = document.getElementById('modal-title');
+      let messageForm = `<b>Заказ с сайта</b>\n`;
+      messageForm += `<b> </b>\n`;
+      messageForm += `<b>${modalTitle.innerText}</b>\n`;
+      messageForm += `<b> </b>\n`;
+      messageForm += `<b>Сообщение: </b> <i>«${form.message.value}»</i>\n`;
+      messageForm += `<b> </b>\n`;
+      messageForm += `<b>Отправитель: ${form.name.value}</b> \n`;
+      messageForm += `<b> </b>\n`;
+      messageForm += `<b>Телефон:${form.phone.value} </b> \n`;
+
+      axios.post(uri_api, {
+        chat_id,
+        parse_mode: 'html',
+        text: messageForm,
+      }).then(data => {
+        btn.innerHTML = 'Отправлено';
+        setTimeout(() => {
+          btn.innerHTML = 'Отправить';
+          closeModal('modal1');
+          form.reset();
+        }, 3000);
+      });
+    }
+  </script>
+
+
+</body>
+
+</html>
